@@ -12,6 +12,10 @@ canvas {
   height: 100vh;
 }
 
+.image {
+  border-radius: 40%;
+}
+
 #heading {
   font-family: "Righteous", cursive;
   font-size: 1rem;
@@ -64,6 +68,22 @@ canvas {
   color: #ec0000;
 }
 
+@media screen and (max-width: 600px) {
+  .image {
+    width: 60%;
+  }
+
+  #badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  .link1 {
+    margin: 20px 10px 0px 10px;
+  }
+}
+
 @media screen and (max-width: 785px) {
   .header1 {
     font-size: 8vw;
@@ -75,7 +95,7 @@ canvas {
 
   #heading {
     font-family: "Righteous", cursive;
-    font-size:300%;
+    font-size: 300%;
     color: white;
     margin: 0%;
   }
