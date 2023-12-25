@@ -7,7 +7,7 @@ function App() {
     text2: useRef(null),
   };
 
-  const texts = ["Ethical Hacker", "CTF Player", "hoaxablaze77"];
+  const texts = ["Ethical Hacker", "CTF Player", "Ez1o"];
 
   let textIndex = texts.length - 1;
   let time = new Date();
